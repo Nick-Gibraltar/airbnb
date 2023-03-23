@@ -45,44 +45,57 @@ def main():
     print("R squared Validation: ", r2_score(y_validation,SGD_model.predict(X_validation_normalized)))
     print("R squared Test: ", r2_score(y_test,SGD_model.predict(X_test_normalized)))
 
-    custom_tune_regression_model_hyperparameters()
+    custom_tune_regression_model_hyperparameters(X_train_normalized, y_train, X_validation_normalized, y_validation)
 
 
-def custom_tune_regression_model_hyperparameters():
+def custom_tune_regression_model_hyperparameters(X_train_normalized, y_train, X_validation_normalized, y_validation):
     
     model_specifications_list = generate_model_parameters()
+    min_sqrt_mse = np.inf
+
     for i in model_specifications_list:
-        print(i)
-        performance = run_model(i)
-        print(performance)
+        print("Running ", i)
+        
+        model_type = i[0]
+        model_parameters = i[1]
     
-def run_model(model_specification):
-    
-    pass
+        model = model_type(**model_parameters)
+
+        model.fit(X_train_normalized, y_train)
+        
+        sqrt_mse = np.sqrt(mean_squared_error(y_validation, model.predict(X_validation_normalized)))
+        if sqrt_mse < min_sqrt_mse:
+            r2 = r2_score(y_validation, model.predict(X_validation_normalized))
+            print("New best achieved: ", sqrt_mse, )
+            best_model = [i, sqrt_mse, r2]
+            min_sqrt_mse = sqrt_mse
+
+    print(best_model)
+
 
 
 def generate_model_parameters():
 
     model_specifications  = [
-                            ["GradientBoostingRegressor", 
+                            [GradientBoostingRegressor, 
                             ["learning_rate", "max_depth", "n_estimators"], 
-                            [[0.01, 0.1, 1], [2, 3, 10], [10, 100, 500]]],
+                            [[0.01, 0.1, 1], [2, 3, 10], [10, 100, 1000]]],
 
-                            ["SVR",
+                            [SVR,
                             ["kernel", "C"],
                             [["linear", "rbf", "sigmoid"], [0.1, 1, 10]]],
 
-                            ["SGDRegressor",
+                            [SGDRegressor,
                             ["penalty", "alpha", "max_iter", "eta0"],
-                            [["l1", "l2", "elasticnet"], [0.01, 0.001, 0.0001, 0.00001], [100, 500, 1000, 5000], [0.001, 0.01, 0.1]]],
+                            [["l1", "l2", "elasticnet"], [0.01, 0.001, 0.0001, 0.00001], [100, 500, 1000, 10000], [0.001, 0.01, 0.1]]],
 
-                            ["DecisionTreeRegressor",
+                            [DecisionTreeRegressor,
                             ["max_depth", "splitter"],
                             [[None, 2, 3, 5], ["best"]]],
 
-                            ["RandomForestRegressor",
+                            [RandomForestRegressor,
                             ["n_estimators", "max_depth"],
-                            [[10, 50, 100, 500], [None, 2, 5]]
+                            [[10, 100, 1000, 5000], [None, 2, 10]]
                             ]
                             ]    
 
