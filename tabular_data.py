@@ -61,7 +61,8 @@ def load_airbnb(df, label_fieldname):
         numerical_features_fieldname_list = ['guests', 'beds', 'bathrooms', 'Price_Night', 'Cleanliness_rating',
                                           'Accuracy_rating', 'Communication_rating', 'Location_rating', 'Check-in_rating',
                                           'Value_rating', 'amenities_count', 'bedrooms']
-        numerical_features_fieldname_list.remove(label_fieldname)
+        if label_fieldname != "Category":
+            numerical_features_fieldname_list.remove(label_fieldname)
         return(df[numerical_features_fieldname_list], df[label_fieldname])
     else:
         print("Specified fieldname does not exist in the dataframe")

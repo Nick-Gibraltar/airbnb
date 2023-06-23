@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import os
 
-from sklearn.linear_model import SGDRegressor, LogisticRegression
+from sklearn.linear_model import SGDRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import GradientBoostingRegressor
@@ -34,11 +34,6 @@ def main():
     X_test_normalized = scaler.transform(X_test)
     X_validation_normalized = scaler.transform(X_validation)    
 
-    logreg = LogisticRegression()
-    logreg.fit(X_train_normalized, y_train)
-    y_pred = logreg.predict(X_test_normalized)
-
-    
     """
     normalizer = preprocessing.MinMaxScaler().fit(X_train)
     X_train_normalized = normalizer.transform(X_train)
@@ -92,7 +87,7 @@ def generate_model_parameters():
         parameter_keys = i[1]
         for j in parameter_values:
             model_specifications_list.append((i[0], dict(zip(parameter_keys, j))))
-    
+
     return model_specifications_list
 
 def save_model(best_model):
