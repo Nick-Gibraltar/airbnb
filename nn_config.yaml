@@ -1,0 +1,108 @@
+networks:
+  - name: network1
+    optimiser: SGD
+    learning_rate: 0.0001
+    num_hidden_layers: 2
+    hidden_layer_neurons: [8, 8]
+
+  - name: network2
+    optimiser: SGD
+    learning_rate: 0.001
+    num_hidden_layers: 6
+    hidden_layer_neurons: [128, 128, 128, 128, 128, 128]
+
+  - name: network3
+    optimiser: SGD
+    learning_rate: 0.01
+    num_hidden_layers: 2
+    hidden_layer_neurons: [8, 8]
+
+  - name: network4
+    optimiser: SGD
+    learning_rate: 0.0001
+    num_hidden_layers: 2
+    hidden_layer_neurons: [16, 16]
+
+  - name: network5
+    optimiser: SGD
+    learning_rate: 0.001
+    num_hidden_layers: 2
+    hidden_layer_neurons: [16, 16]
+
+  - name: network6
+    optimiser: SGD
+    learning_rate: 0.01
+    num_hidden_layers: 2
+    hidden_layer_neurons: [16, 16]
+
+  - name: network7
+    optimiser: SGD
+    learning_rate: 0.0001
+    num_hidden_layers: 2
+    hidden_layer_neurons: [4, 4]
+
+  - name: network8
+    optimiser: SGD
+    learning_rate: 0.001
+    num_hidden_layers: 2
+    hidden_layer_neurons: [4, 4]
+
+  - name: network9
+    optimiser: SGD
+    learning_rate: 0.01
+    num_hidden_layers: 2
+    hidden_layer_neurons: [4, 4]
+
+  - name: network10
+    optimiser: SGD
+    learning_rate: 0.0001
+    num_hidden_layers: 3
+    hidden_layer_neurons: [8, 8, 8]
+
+  - name: network11
+    optimiser: SGD
+    learning_rate: 0.001
+    num_hidden_layers: 3
+    hidden_layer_neurons: [8, 8, 8]
+
+  - name: network12
+    optimiser: SGD
+    learning_rate: 0.01
+    num_hidden_layers: 3
+    hidden_layer_neurons: [8, 8, 8]
+
+  - name: network13
+    optimiser: SGD
+    learning_rate: 0.0001
+    num_hidden_layers: 3
+    hidden_layer_neurons: [4, 4, 4]
+
+  - name: network14
+    optimiser: SGD
+    learning_rate: 0.001
+    num_hidden_layers: 3
+    hidden_layer_neurons: [4, 4, 4]
+
+  - name: network15
+    optimiser: SGD
+    learning_rate: 0.01
+    num_hidden_layers: 3
+    hidden_layer_neurons: [4, 4, 4]
+
+  - name: network16
+    optimiser: SGD
+    learning_rate: 0.0001
+    num_hidden_layers: 3
+    hidden_layer_neurons: [32, 32, 32]
+
+  - name: network17
+    optimiser: SGD
+    learning_rate: 0.001
+    num_hidden_layers: 3
+    hidden_layer_neurons: [32, 32, 32]
+
+  - name: network18
+    optimiser: SGD
+    learning_rate: 0.01
+    num_hidden_layers: 3
+    hidden_layer_neurons: [32, 32, 32]
