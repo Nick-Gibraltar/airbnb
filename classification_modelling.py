@@ -1,8 +1,9 @@
+import datetime
 import itertools
-import tabular_data as td
-import pandas as pd
-import numpy as np
+import json
 import os
+import pandas as pd
+import tabular_data as td
 
 from sklearn.linear_model import LogisticRegression, SGDClassifier, Perceptron
 from sklearn.tree import DecisionTreeClassifier
@@ -22,7 +23,8 @@ def generate_model_parameters():
                             
                             [SGDClassifier,
                             ["penalty", "alpha", "max_iter", "learning_rate", "eta0", "random_state"],
-                            [["l1", "l2", "elasticnet"], [0.01, 0.001, 0.0001, 0.00001], [100, 500, 1000, 10000, 50000, 100000], ["constant", "optimal", "adaptive"], [0.001, 0.01, 0.1]], [47]],
+                            [["l1", "l2", "elasticnet"], [0.01, 0.001, 0.0001, 0.00001], [100, 500, 1000, 10000, 50000, 100000],
+                              ["constant", "optimal", "adaptive"], [0.001, 0.01, 0.1]], [47]],
                             
                             [LogisticRegression,
                             [],
@@ -55,17 +57,35 @@ def generate_model_parameters():
     
     return model_specifications_list
 
+def save_test_results(test_results, best_model):
+
+    # Generate path names for metric and configuration outputs 
+    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/runs/classification')
+    current_datetime = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+
+    #Save model specifications to a text file
+    output_filename = f'classification_results_{current_datetime}.txt'
+    output_path = os.path.join(output_dir, output_filename)
+    with open(output_path, 'w') as f:
+        for i in test_results:
+            f.write(i)
+    
+    #Save best model to a text file
+    output_filename = f'classification_best_model_{current_datetime}.json'
+    output_path = os.path.join(output_dir, output_filename)
+    with open(output_path, 'w') as f:
+        json.dump(best_model, f, indent=4)
+
+
 def custom_tune_classification_model_hyperparameters(X_train_normalized, y_train, X_validation_normalized, y_validation, X_test_normalized, y_test):
     
     model_specifications_list = generate_model_parameters()
     test_results = []
-    #min_sqrt_mse = np.inf
-    #best_r2 = -1
+
 
     best_accuracy = 0
     for i in model_specifications_list:
-        #print("Running ", i)
-
+    
         model_type = i[0]
         model_parameters = i[1]
     
@@ -80,12 +100,16 @@ def custom_tune_classification_model_hyperparameters(X_train_normalized, y_train
         accuracy_test = accuracy_score(y_test, y_prediction_test)
 
         if accuracy_validation > best_accuracy:
+            best_model = (model.__class__.__name__, i[1], accuracy_validation, accuracy_test)
             print("New best: ", accuracy_validation, "Test accuracy: ", accuracy_test, i)
             best_accuracy = accuracy_validation
 
-        test_results.append([i[0], i[1], accuracy_validation, accuracy_test])
+        result = str(model.__class__.__name__) + " " + str(i[1]) + ": " + str(accuracy_validation) + ", " + str(accuracy_test) +"\n"
+        print(model.__class__.__name__, i[1], accuracy_validation, accuracy_test)
+        test_results.append(result)
 
-    #save_model(best_model)
+    save_test_results(test_results, best_model)
+    
     return test_results
 
 
@@ -106,25 +130,7 @@ def main():
     X_test_normalized = scaler.transform(X_test)
     X_validation_normalized = scaler.transform(X_validation)
 
-    test_results = custom_tune_classification_model_hyperparameters(X_train_normalized, y_train, X_validation_normalized, y_validation, X_test_normalized, y_test)
-    #best_model = find_best_model(test_results, False)
-    print(best_model)
-
-    """
-    logreg = LogisticRegression()
-    logreg.fit(X_train_normalized, y_train)
-    y_pred = logreg.predict(X_test_normalized)
-
-    accuracy = accuracy_score(y_test, y_pred)
-    precision = precision_score(y_test, y_pred, average='macro')
-    recall = recall_score(y_test, y_pred, average='macro')
-    f1 = f1_score(y_test, y_pred, average='macro')
-
-    print("Accuracy: ", accuracy)
-    print("Precision: ", precision)
-    print("Recall: ", recall)
-    print("F1 Score: ", f1)
-    """
+    custom_tune_classification_model_hyperparameters(X_train_normalized, y_train, X_validation_normalized, y_validation, X_test_normalized, y_test)
 
 if __name__ == "__main__":
     main()

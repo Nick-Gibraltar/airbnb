@@ -1,0 +1,10 @@
+[
+    "GradientBoostingClassifier",
+    {
+        "learning_rate": 0.01,
+        "n_estimators": 1000,
+        "max_depth": 3
+    },
+    0.3951612903225806,
+    0.376
+]

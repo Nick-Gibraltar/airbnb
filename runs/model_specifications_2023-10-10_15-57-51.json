@@ -1,0 +1,32 @@
+"0b751ba8-9283-4a4e-acd7-d3b3e17a9831"[
+    {
+        "type": "Linear",
+        "config": {
+            "in_features": 11,
+            "out_features": 4
+        }
+    },
+    {
+        "type": "ReLU"
+    },
+    {
+        "type": "Linear",
+        "config": {
+            "in_features": 4,
+            "out_features": 4
+        }
+    },
+    {
+        "type": "ReLU"
+    },
+    {
+        "type": "Linear",
+        "config": {
+            "in_features": 4,
+            "out_features": 1
+        }
+    }
+][
+    "SGD",
+    0.001
+]

@@ -1,0 +1,720 @@
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25, 0.344
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2661290322580645, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.27419354838709675, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2903225806451613, 0.232
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2903225806451613, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.28225806451612906, 0.336
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.20161290322580644, 0.208
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.22580645161290322, 0.208
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.23387096774193547, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.3064516129032258, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2661290322580645, 0.32
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.33064516129032256, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25806451612903225, 0.216
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.28225806451612906, 0.32
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.24193548387096775, 0.208
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2903225806451613, 0.232
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25806451612903225, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.23387096774193547, 0.2
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2661290322580645, 0.36
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.24193548387096775, 0.224
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.336
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2903225806451613, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2661290322580645, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.29838709677419356, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2903225806451613, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.23387096774193547, 0.232
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.29838709677419356, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3387096774193548, 0.36
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3225806451612903, 0.336
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25, 0.232
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25806451612903225, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.29838709677419356, 0.36
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.1774193548387097, 0.256
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.24193548387096775, 0.344
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.31451612903225806, 0.368
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25, 0.184
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.27419354838709675, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.23387096774193547, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.28225806451612906, 0.312
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2903225806451613, 0.232
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.216
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.28225806451612906, 0.336
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2661290322580645, 0.184
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.27419354838709675, 0.224
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25806451612903225, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.21774193548387097, 0.224
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2661290322580645, 0.208
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.232
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.28225806451612906, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.28225806451612906, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2661290322580645, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.3064516129032258, 0.336
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2661290322580645, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.27419354838709675, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2903225806451613, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.27419354838709675, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.29838709677419356, 0.32
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25806451612903225, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.20161290322580644, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.24193548387096775, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25806451612903225, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.31451612903225806, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.31451612903225806, 0.36
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25, 0.224
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.24193548387096775, 0.216
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.312
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.3387096774193548, 0.32
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.22580645161290322, 0.232
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2661290322580645, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.21774193548387097, 0.256
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.3225806451612903, 0.312
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.27419354838709675, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.2
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2903225806451613, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.216
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2661290322580645, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.24193548387096775, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.23387096774193547, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.29838709677419356, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.24193548387096775, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.232
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.2903225806451613, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.29838709677419356, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.29838709677419356, 0.256
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.20967741935483872, 0.2
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.29838709677419356, 0.344
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.29838709677419356, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2903225806451613, 0.368
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25806451612903225, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.24193548387096775, 0.208
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.23387096774193547, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.3064516129032258, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.20161290322580644, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.29838709677419356, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2661290322580645, 0.336
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25806451612903225, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.22580645161290322, 0.208
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25, 0.136
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.31451612903225806, 0.336
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2661290322580645, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2903225806451613, 0.312
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.28225806451612906, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.3548387096774194, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2661290322580645, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.3064516129032258, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.24193548387096775, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.352
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.31451612903225806, 0.312
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.344
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.27419354838709675, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2661290322580645, 0.32
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2903225806451613, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.3387096774193548, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25, 0.184
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3548387096774194, 0.384
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.31451612903225806, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.29838709677419356, 0.344
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.344
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.20161290322580644, 0.232
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.29838709677419356, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.29838709677419356, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.21774193548387097, 0.256
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.256
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2903225806451613, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3064516129032258, 0.344
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.18548387096774194, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.29838709677419356, 0.36
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.28225806451612906, 0.2
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.18548387096774194, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.29838709677419356, 0.256
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.31451612903225806, 0.352
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.21774193548387097, 0.216
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.27419354838709675, 0.256
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2903225806451613, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25, 0.256
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2903225806451613, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.256
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25, 0.256
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3064516129032258, 0.344
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.21774193548387097, 0.16
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.23387096774193547, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.27419354838709675, 0.352
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.27419354838709675, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2903225806451613, 0.376
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25806451612903225, 0.352
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.3225806451612903, 0.36
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3225806451612903, 0.32
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.20967741935483872, 0.208
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.27419354838709675, 0.224
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25806451612903225, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25806451612903225, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.3064516129032258, 0.32
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2903225806451613, 0.336
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.29838709677419356, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.31451612903225806, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2661290322580645, 0.224
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.20967741935483872, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2903225806451613, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25806451612903225, 0.312
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2903225806451613, 0.376
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.23387096774193547, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.24193548387096775, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.27419354838709675, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.24193548387096775, 0.224
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25806451612903225, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.31451612903225806, 0.36
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2903225806451613, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2661290322580645, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.24193548387096775, 0.28
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3548387096774194, 0.32
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.248
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.27419354838709675, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.23387096774193547, 0.232
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.31451612903225806, 0.336
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.29838709677419356, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2903225806451613, 0.352
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2903225806451613, 0.296
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2903225806451613, 0.32
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25, 0.312
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25806451612903225, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.1935483870967742, 0.184
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.27419354838709675, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.27419354838709675, 0.32
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.27419354838709675, 0.352
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.216
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.21774193548387097, 0.192
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.24193548387096775, 0.216
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.27419354838709675, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2903225806451613, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25806451612903225, 0.224
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.31451612903225806, 0.352
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2903225806451613, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.31451612903225806, 0.328
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25, 0.288
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.23387096774193547, 0.304
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3064516129032258, 0.24
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.29838709677419356, 0.264
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.23387096774193547, 0.272
+SGDClassifier {'penalty': 'l1', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.24193548387096775, 0.248
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2661290322580645, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.24193548387096775, 0.24
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.28225806451612906, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.3387096774193548, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3387096774193548, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.28225806451612906, 0.232
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.22580645161290322, 0.376
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.24193548387096775, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.24193548387096775, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.24193548387096775, 0.232
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.31451612903225806, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2903225806451613, 0.232
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2661290322580645, 0.28
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25, 0.256
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25, 0.256
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2661290322580645, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2903225806451613, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25806451612903225, 0.272
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.28225806451612906, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2903225806451613, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.21774193548387097, 0.208
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25806451612903225, 0.232
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.24193548387096775, 0.312
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2661290322580645, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.28225806451612906, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25806451612903225, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.22580645161290322, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.3064516129032258, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2661290322580645, 0.352
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25, 0.28
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.20967741935483872, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2903225806451613, 0.312
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.23387096774193547, 0.352
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.24193548387096775, 0.28
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.33064516129032256, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.31451612903225806, 0.312
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.31451612903225806, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.28225806451612906, 0.224
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3064516129032258, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.16129032258064516, 0.232
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.24193548387096775, 0.272
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.21774193548387097, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.28225806451612906, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.28225806451612906, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.27419354838709675, 0.256
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2903225806451613, 0.28
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.1774193548387097, 0.248
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.27419354838709675, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.23387096774193547, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.352
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25806451612903225, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.3387096774193548, 0.368
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2661290322580645, 0.248
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3064516129032258, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.31451612903225806, 0.36
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.22580645161290322, 0.312
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.376
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25806451612903225, 0.352
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.33064516129032256, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2661290322580645, 0.272
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.24193548387096775, 0.224
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3548387096774194, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.28225806451612906, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.20967741935483872, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.24193548387096775, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25806451612903225, 0.28
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25806451612903225, 0.224
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.29838709677419356, 0.2
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.1935483870967742, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25, 0.312
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2903225806451613, 0.368
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.2661290322580645, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25, 0.256
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.27419354838709675, 0.248
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.3225806451612903, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.27419354838709675, 0.192
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.1935483870967742, 0.248
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3225806451612903, 0.4
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.2661290322580645, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.24193548387096775, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.28225806451612906, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25, 0.216
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25, 0.28
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.24193548387096775, 0.208
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.23387096774193547, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2661290322580645, 0.376
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25, 0.256
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2661290322580645, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.22580645161290322, 0.232
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.28225806451612906, 0.352
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.20967741935483872, 0.192
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.31451612903225806, 0.352
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2903225806451613, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.23387096774193547, 0.208
+SGDClassifier {'penalty': 'l2', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2661290322580645, 0.232
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.28225806451612906, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.3225806451612903, 0.28
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.368
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.29838709677419356, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2903225806451613, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.22580645161290322, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25, 0.312
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.3387096774193548, 0.272
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.33064516129032256, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.29838709677419356, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2903225806451613, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3790322580645161, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3064516129032258, 0.36
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.22580645161290322, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.24193548387096775, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25, 0.352
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2903225806451613, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2903225806451613, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.3709677419354839, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2903225806451613, 0.368
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2903225806451613, 0.16
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25806451612903225, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.2903225806451613, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.23387096774193547, 0.36
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25806451612903225, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.27419354838709675, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.28225806451612906, 0.216
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2903225806451613, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.20161290322580644, 0.16
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25, 0.184
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25806451612903225, 0.256
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.24
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.23387096774193547, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.31451612903225806, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.31451612903225806, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2661290322580645, 0.168
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.22580645161290322, 0.272
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.36
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.24193548387096775, 0.312
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2661290322580645, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2661290322580645, 0.248
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25, 0.352
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2903225806451613, 0.352
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2661290322580645, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.20967741935483872, 0.248
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.28225806451612906, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.22580645161290322, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.3225806451612903, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.31451612903225806, 0.28
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.31451612903225806, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.3548387096774194, 0.384
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.20161290322580644, 0.192
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.23387096774193547, 0.272
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.21774193548387097, 0.312
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.22580645161290322, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.18548387096774194, 0.256
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.29838709677419356, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.31451612903225806, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2903225806451613, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.24193548387096775, 0.112
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.24193548387096775, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.27419354838709675, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25806451612903225, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.29838709677419356, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25, 0.248
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.29838709677419356, 0.264
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.3225806451612903, 0.24
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3225806451612903, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25806451612903225, 0.304
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25, 0.232
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.312
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2903225806451613, 0.328
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.29838709677419356, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.28
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2903225806451613, 0.392
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.1774193548387097, 0.2
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.23387096774193547, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2903225806451613, 0.344
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.20161290322580644, 0.192
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.24193548387096775, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2661290322580645, 0.184
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.20967741935483872, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.23387096774193547, 0.352
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.23387096774193547, 0.312
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.1935483870967742, 0.248
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.3064516129032258, 0.32
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2661290322580645, 0.336
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.3064516129032258, 0.288
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25806451612903225, 0.248
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.232
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25, 0.36
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25806451612903225, 0.296
+SGDClassifier {'penalty': 'l2', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.27419354838709675, 0.248
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.20967741935483872, 0.136
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.31451612903225806, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2903225806451613, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25, 0.216
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.29838709677419356, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.28225806451612906, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.24193548387096775, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.23387096774193547, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.31451612903225806, 0.368
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.1935483870967742, 0.192
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.23387096774193547, 0.216
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.22580645161290322, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.248
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.1935483870967742, 0.184
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.27419354838709675, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2903225806451613, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.31451612903225806, 0.4
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.23387096774193547, 0.192
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2903225806451613, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3225806451612903, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.28225806451612906, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.20161290322580644, 0.136
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.28225806451612906, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.23387096774193547, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.28225806451612906, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.23387096774193547, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.29838709677419356, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3064516129032258, 0.248
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.21774193548387097, 0.136
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.33064516129032256, 0.352
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.328
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.1935483870967742, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.23387096774193547, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25, 0.352
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.27419354838709675, 0.368
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.29838709677419356, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3064516129032258, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25, 0.2
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.29838709677419356, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.29838709677419356, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25806451612903225, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.24193548387096775, 0.144
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.29838709677419356, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25, 0.328
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.28225806451612906, 0.232
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.27419354838709675, 0.232
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2661290322580645, 0.256
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.01, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.27419354838709675, 0.352
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.3064516129032258, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.28225806451612906, 0.256
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.33064516129032256, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.3064516129032258, 0.248
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2661290322580645, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2903225806451613, 0.24
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.28225806451612906, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2661290322580645, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.27419354838709675, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.24193548387096775, 0.2
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.20161290322580644, 0.216
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.3467741935483871, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25806451612903225, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2661290322580645, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25, 0.192
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25, 0.192
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25806451612903225, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2903225806451613, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.3064516129032258, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.3064516129032258, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.29838709677419356, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25, 0.24
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.24193548387096775, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.20967741935483872, 0.256
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.27419354838709675, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.23387096774193547, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.28225806451612906, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.2903225806451613, 0.24
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3064516129032258, 0.248
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.2661290322580645, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.3467741935483871, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.22580645161290322, 0.256
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.24193548387096775, 0.192
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.3387096774193548, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.31451612903225806, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3387096774193548, 0.352
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2661290322580645, 0.208
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.27419354838709675, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2661290322580645, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.29838709677419356, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.28225806451612906, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.33064516129032256, 0.408
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25806451612903225, 0.368
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.31451612903225806, 0.416
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.28225806451612906, 0.384
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.3064516129032258, 0.328
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.23387096774193547, 0.24
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25806451612903225, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.3064516129032258, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2903225806451613, 0.328
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25, 0.232
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.23387096774193547, 0.184
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3225806451612903, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.2661290322580645, 0.36
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.22580645161290322, 0.232
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2661290322580645, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.3064516129032258, 0.36
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.28225806451612906, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2661290322580645, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25806451612903225, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3064516129032258, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.3225806451612903, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.20967741935483872, 0.232
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.232
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.29838709677419356, 0.352
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2903225806451613, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2661290322580645, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3548387096774194, 0.376
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.24193548387096775, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2661290322580645, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.25806451612903225, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.25, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.27419354838709675, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.29838709677419356, 0.36
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.328
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.28225806451612906, 0.368
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.408
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.20161290322580644, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.22580645161290322, 0.24
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2903225806451613, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.28225806451612906, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.27419354838709675, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.2661290322580645, 0.328
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.376
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.28225806451612906, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.29838709677419356, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.1935483870967742, 0.168
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.23387096774193547, 0.232
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2903225806451613, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.2903225806451613, 0.352
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.31451612903225806, 0.256
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.352
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2661290322580645, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.22580645161290322, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2903225806451613, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 0.0001, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.28225806451612906, 0.328
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.001}: 0.27419354838709675, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.01}: 0.27419354838709675, 0.296
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'constant', 'eta0': 0.1}: 0.29838709677419356, 0.384
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.33064516129032256, 0.312
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3225806451612903, 0.392
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.27419354838709675, 0.192
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.29838709677419356, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.2661290322580645, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.24193548387096775, 0.224
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.001}: 0.27419354838709675, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25, 0.248
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25, 0.232
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.3225806451612903, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3064516129032258, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 500, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2903225806451613, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.3225806451612903, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.29838709677419356, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.31451612903225806, 0.336
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.27419354838709675, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.33064516129032256, 0.344
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.3467741935483871, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.23387096774193547, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.27419354838709675, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 1000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2661290322580645, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2661290322580645, 0.304
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.25, 0.248
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.3225806451612903, 0.28
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.3064516129032258, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.2661290322580645, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.29838709677419356, 0.152
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.25806451612903225, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25806451612903225, 0.328
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 10000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.3064516129032258, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.2903225806451613, 0.328
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.3064516129032258, 0.384
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.25806451612903225, 0.272
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.28225806451612906, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.1693548387096774, 0.2
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25, 0.24
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.22580645161290322, 0.256
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.25, 0.288
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 50000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.20967741935483872, 0.24
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.001}: 0.24193548387096775, 0.224
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.01}: 0.20967741935483872, 0.264
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'constant', 'eta0': 0.1}: 0.3467741935483871, 0.416
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.001}: 0.25, 0.328
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.01}: 0.25806451612903225, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'optimal', 'eta0': 0.1}: 0.25, 0.184
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.001}: 0.20161290322580644, 0.248
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.01}: 0.23387096774193547, 0.32
+SGDClassifier {'penalty': 'elasticnet', 'alpha': 1e-05, 'max_iter': 100000, 'learning_rate': 'adaptive', 'eta0': 0.1}: 0.2903225806451613, 0.272
+LogisticRegression {}: 0.3225806451612903, 0.328
+DecisionTreeClassifier {'max_depth': None, 'splitter': 'best'}: 0.2661290322580645, 0.28
+DecisionTreeClassifier {'max_depth': 2, 'splitter': 'best'}: 0.31451612903225806, 0.36
+DecisionTreeClassifier {'max_depth': 3, 'splitter': 'best'}: 0.31451612903225806, 0.352
+DecisionTreeClassifier {'max_depth': 5, 'splitter': 'best'}: 0.2661290322580645, 0.4
+DecisionTreeClassifier {'max_depth': 10, 'splitter': 'best'}: 0.29838709677419356, 0.344
+RandomForestClassifier {'n_estimators': 10, 'max_depth': None}: 0.33064516129032256, 0.376
+RandomForestClassifier {'n_estimators': 10, 'max_depth': 2}: 0.3064516129032258, 0.344
+RandomForestClassifier {'n_estimators': 10, 'max_depth': 10}: 0.3548387096774194, 0.376
+RandomForestClassifier {'n_estimators': 100, 'max_depth': None}: 0.3467741935483871, 0.368
+RandomForestClassifier {'n_estimators': 100, 'max_depth': 2}: 0.3467741935483871, 0.336
+RandomForestClassifier {'n_estimators': 100, 'max_depth': 10}: 0.3548387096774194, 0.352
+RandomForestClassifier {'n_estimators': 1000, 'max_depth': None}: 0.3629032258064516, 0.392
+RandomForestClassifier {'n_estimators': 1000, 'max_depth': 2}: 0.3064516129032258, 0.312
+RandomForestClassifier {'n_estimators': 1000, 'max_depth': 10}: 0.3709677419354839, 0.384
+RandomForestClassifier {'n_estimators': 5000, 'max_depth': None}: 0.3790322580645161, 0.408
+RandomForestClassifier {'n_estimators': 5000, 'max_depth': 2}: 0.3064516129032258, 0.304
+RandomForestClassifier {'n_estimators': 5000, 'max_depth': 10}: 0.3790322580645161, 0.4
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 10, 'max_depth': None}: 0.3064516129032258, 0.28
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 10, 'max_depth': 2}: 0.2903225806451613, 0.2
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 10, 'max_depth': 3}: 0.3064516129032258, 0.232
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 10, 'max_depth': 5}: 0.2661290322580645, 0.288
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 10, 'max_depth': 10}: 0.3548387096774194, 0.28
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 100, 'max_depth': None}: 0.2903225806451613, 0.288
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 100, 'max_depth': 2}: 0.3709677419354839, 0.352
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 100, 'max_depth': 3}: 0.3467741935483871, 0.344
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 100, 'max_depth': 5}: 0.3225806451612903, 0.336
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 100, 'max_depth': 10}: 0.3225806451612903, 0.32
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 1000, 'max_depth': None}: 0.3064516129032258, 0.312
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 1000, 'max_depth': 2}: 0.33064516129032256, 0.376
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 1000, 'max_depth': 3}: 0.3951612903225806, 0.376
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 1000, 'max_depth': 5}: 0.3629032258064516, 0.36
+GradientBoostingClassifier {'learning_rate': 0.01, 'n_estimators': 1000, 'max_depth': 10}: 0.3064516129032258, 0.312
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 10, 'max_depth': None}: 0.27419354838709675, 0.288
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 10, 'max_depth': 2}: 0.33064516129032256, 0.32
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 10, 'max_depth': 3}: 0.3548387096774194, 0.344
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 10, 'max_depth': 5}: 0.3629032258064516, 0.312
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 10, 'max_depth': 10}: 0.31451612903225806, 0.336
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': None}: 0.2903225806451613, 0.304
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 2}: 0.3467741935483871, 0.4
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}: 0.3870967741935484, 0.376
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 5}: 0.3548387096774194, 0.384
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 10}: 0.3064516129032258, 0.352
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 1000, 'max_depth': None}: 0.3225806451612903, 0.312
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 1000, 'max_depth': 2}: 0.33064516129032256, 0.328
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 1000, 'max_depth': 3}: 0.3548387096774194, 0.352
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 1000, 'max_depth': 5}: 0.3064516129032258, 0.32
+GradientBoostingClassifier {'learning_rate': 0.1, 'n_estimators': 1000, 'max_depth': 10}: 0.33064516129032256, 0.328
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 10, 'max_depth': None}: 0.33064516129032256, 0.36
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 10, 'max_depth': 2}: 0.31451612903225806, 0.352
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 10, 'max_depth': 3}: 0.33064516129032256, 0.312
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 10, 'max_depth': 5}: 0.29838709677419356, 0.376
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 10, 'max_depth': 10}: 0.3225806451612903, 0.328
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 100, 'max_depth': None}: 0.3387096774193548, 0.36
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 100, 'max_depth': 2}: 0.3709677419354839, 0.288
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 100, 'max_depth': 3}: 0.3467741935483871, 0.304
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 100, 'max_depth': 5}: 0.3064516129032258, 0.368
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 100, 'max_depth': 10}: 0.29838709677419356, 0.32
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 1000, 'max_depth': None}: 0.3548387096774194, 0.368
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 1000, 'max_depth': 2}: 0.3548387096774194, 0.312
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 1000, 'max_depth': 3}: 0.3387096774193548, 0.368
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 1000, 'max_depth': 5}: 0.3467741935483871, 0.328
+GradientBoostingClassifier {'learning_rate': 1, 'n_estimators': 1000, 'max_depth': 10}: 0.31451612903225806, 0.312
+SVC {'kernel': 'linear', 'C': 0.1}: 0.28225806451612906, 0.36
+SVC {'kernel': 'linear', 'C': 1}: 0.2903225806451613, 0.368
+SVC {'kernel': 'linear', 'C': 10}: 0.3387096774193548, 0.368
+SVC {'kernel': 'rbf', 'C': 0.1}: 0.2903225806451613, 0.376
+SVC {'kernel': 'rbf', 'C': 1}: 0.33064516129032256, 0.4
+SVC {'kernel': 'rbf', 'C': 10}: 0.3790322580645161, 0.424
+SVC {'kernel': 'sigmoid', 'C': 0.1}: 0.2903225806451613, 0.392
+SVC {'kernel': 'sigmoid', 'C': 1}: 0.16129032258064516, 0.24
+SVC {'kernel': 'sigmoid', 'C': 10}: 0.23387096774193547, 0.2

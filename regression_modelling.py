@@ -1,4 +1,6 @@
+import datetime
 import itertools
+import json
 import tabular_data as td
 import pandas as pd
 import numpy as np
@@ -45,6 +47,8 @@ def main():
     #tune_regression_model_hyperparameters(X_train_normalized, y_train, X_validation_normalized, y_validation)
     best_model = find_best_model(test_results, False)
     print(best_model)
+    save_model(best_model)
+    save_test_results(test_results)
 
 def tune_regression_model_hyperparameters(X_train, y_train, X_test, y_test):
     
@@ -91,18 +95,21 @@ def generate_model_parameters():
     return model_specifications_list
 
 def save_model(best_model):
-    file_path = "/home/nick/Documents/AICore/Specialisation/Airbnb_Project/models/regression/best_model.txt"
-    with open(file_path, 'w') as file:
-        for i in best_model:
-            file.write(str(i)+'\n')
+    
+    # Generate path names for metric and configuration outputs 
+    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/models/regression')
+    current_datetime = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
+    #Save model specifications to a text file
+    output_filename = f'regression_best_model_{current_datetime}.txt'
+    output_path = os.path.join(output_dir, output_filename)
+    with open(output_path, 'w') as f:    
+        json.dump(best_model, f, indent=4)
 
 def custom_tune_regression_model_hyperparameters(X_train_normalized, y_train, X_validation_normalized, y_validation, X_test_normalized, y_test):
     
     model_specifications_list = generate_model_parameters()
     test_results = []
-    #min_sqrt_mse = np.inf
-    #best_r2 = -1
 
     for i in model_specifications_list:
         print("Running ", i)
@@ -122,25 +129,39 @@ def custom_tune_regression_model_hyperparameters(X_train_normalized, y_train, X_
         sqrt_mse_test = mean_squared_error(y_test, y_prediction_test, squared=False)
         r2_test = r2_score(y_test, y_prediction_test)
 
-        test_results.append([i[0], i[1], sqrt_mse_validation, sqrt_mse_test, r2_validation, r2_test])
+        result = {"model": (model.__class__.__name__), "parameters": i[1], "sqrt_mse_validation": sqrt_mse_validation,
+                  "sqrt_mse_test": sqrt_mse_test, "r2_validation": r2_validation, "r2_test": r2_test}
+        
+        test_results.append(result)
 
-    #save_model(best_model)
     return test_results
 
-def find_best_model(test_results, use_MSE=True):
+def save_test_results(test_results):
 
+    # Generate path names for metric and configuration outputs 
+    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/runs/regression')
+    current_datetime = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+
+    #Save model specifications to a text file
+    output_filename = f'regression_results_{current_datetime}.txt'
+    output_path = os.path.join(output_dir, output_filename)
+    with open(output_path, 'w') as f:
+        json.dump(test_results, f, indent=4)
+
+def find_best_model(test_results, use_MSE=True):
+    # Function use MSE or r-squared to determine best model
     best_metric = np.inf if use_MSE else -1
 
     for i in test_results:
         if use_MSE:
-            if i[3] < best_metric:
+            if i["sqrt_mse_test"] < best_metric:
 
-                best_metric = i[3]
+                best_metric = i["sqrt_mse_test"]
                 best_model = i
         
         if not(use_MSE):
-            if i[5] > best_metric:
-                best_metric = i[5]
+            if i["r2_test"] > best_metric:
+                best_metric = i["r2_test"]
                 best_model = i
 
     return best_model

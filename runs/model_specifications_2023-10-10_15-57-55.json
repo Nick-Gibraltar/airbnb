@@ -1,0 +1,42 @@
+"76054c4c-b449-4176-9a59-a3d8430e3eb1"[
+    {
+        "type": "Linear",
+        "config": {
+            "in_features": 11,
+            "out_features": 8
+        }
+    },
+    {
+        "type": "ReLU"
+    },
+    {
+        "type": "Linear",
+        "config": {
+            "in_features": 8,
+            "out_features": 8
+        }
+    },
+    {
+        "type": "ReLU"
+    },
+    {
+        "type": "Linear",
+        "config": {
+            "in_features": 8,
+            "out_features": 8
+        }
+    },
+    {
+        "type": "ReLU"
+    },
+    {
+        "type": "Linear",
+        "config": {
+            "in_features": 8,
+            "out_features": 1
+        }
+    }
+][
+    "SGD",
+    0.01
+]

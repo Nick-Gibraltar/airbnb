@@ -1,0 +1,22 @@
+"dda19853-07ae-4819-9379-8178083dc2db"[
+    {
+        "type": "Linear",
+        "config": {
+            "in_features": 11,
+            "out_features": 128
+        }
+    },
+    {
+        "type": "ReLU"
+    },
+    {
+        "type": "Linear",
+        "config": {
+            "in_features": 128,
+            "out_features": 1
+        }
+    }
+][
+    "SGD",
+    0.01
+]

@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 from ast import literal_eval
 
 def remove_rows_with_missing_ratings(df):
@@ -58,12 +57,12 @@ def clean_tabular_data(df):
 
 def load_airbnb(df, label_fieldname):
     if label_fieldname in df.columns:
-        numerical_features_fieldname_list = ['guests', 'beds', 'bathrooms', 'Price_Night', 
-                                             'Location_rating', 'amenities_count', 'bedrooms']
-        """
+        #numerical_features_fieldname_list = ['guests', 'beds', 'bathrooms', 'Price_Night', 
+        #                                     'Location_rating', 'amenities_count', 'bedrooms']
+        
         numerical_features_fieldname_list = ['guests', 'beds', 'bathrooms', 'Price_Night', 'Cleanliness_rating',
                                           'Accuracy_rating', 'Communication_rating', 'Location_rating', 'Check-in_rating',
-                                          'Value_rating', 'amenities_count', 'bedrooms']"""
+                                          'Value_rating', 'amenities_count', 'bedrooms']
         if label_fieldname != "Category":
             numerical_features_fieldname_list.remove(label_fieldname)
         return(df[numerical_features_fieldname_list], df[label_fieldname])

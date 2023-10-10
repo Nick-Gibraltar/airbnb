@@ -28,7 +28,7 @@ def make_data_loader():
     scaler = MinMaxScaler()
     y = scaler.fit_transform(y.values.reshape(-1, 1))
     y = pd.DataFrame(y)
-    X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.3, random_state=47)
+    X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.2, random_state=47)
     X_validation, X_test, y_validation, y_test = model_selection.train_test_split(X_test, y_test, test_size=0.5, random_state=37)
 
     # The training dataset is an instance of the AirbnbDataset class
@@ -110,7 +110,7 @@ def train_model(train_loader, X_test, y_test, X_validation, y_validation, X_trai
         optimiser = optim.SGD(model.parameters(), lr=learning_rate)   
     
     writer = SummaryWriter()
-    epochs = 20
+    epochs = 10
     batch_idx = 0
     print(model, learning_rate)
     training_duration_timer = time.time()
@@ -166,7 +166,7 @@ def train_model(train_loader, X_test, y_test, X_validation, y_validation, X_trai
 def generate_nn_configs():
     
     # Open yaml file containing network configurations
-    with open("nn_config_small.yaml", "r") as file:
+    with open("nn_config.yaml", "r") as file:
         data = yaml.safe_load(file)
 
     # Parse into a dictionary
@@ -184,11 +184,13 @@ def generate_nn_configs():
     for _, model_specs in model_specifications.items():
         architecture = {}
         num_hidden_layers = model_specs['num_hidden_layers']
+        print(num_hidden_layers)
         for i in range(num_hidden_layers):
             if i==0:
-                architecture["linear"+str(i)] = {'type': nn.Linear, 'config': {'in_features': 6, 'out_features': model_specs['hidden_layer_neurons'][i]}}
+                architecture["linear"+str(i)] = {'type': nn.Linear, 'config': {'in_features': 11, 'out_features': model_specs['hidden_layer_neurons'][i]}}
             else:
-                architecture["linear"+str(i)] = {'type': nn.Linear, 'config': {'in_features': model_specs['hidden_layer_neurons'][i-1], 'out_features': model_specs['hidden_layer_neurons'][i]}}
+                architecture["linear"+str(i)] = {'type': nn.Linear, 'config': {'in_features': model_specs['hidden_layer_neurons'][i-1],
+                                                                               'out_features': model_specs['hidden_layer_neurons'][i]}}
             architecture["relu"+str(i)] = {'type': nn.ReLU, 'config': {}}
         architecture["linear"+str(num_hidden_layers)] = {'type': nn.Linear, 'config': {'in_features': model_specs['hidden_layer_neurons'][num_hidden_layers-1], 'out_features': 1}}
         configs.append(((model_specs["optimiser"], model_specs["learning_rate"]), architecture))
