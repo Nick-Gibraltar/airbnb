@@ -60,7 +60,7 @@ def generate_model_parameters():
 def save_test_results(test_results, best_model):
 
     # Generate path names for metric and configuration outputs 
-    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/runs/classification')
+    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/results/classification')
     current_datetime = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
     #Save model specifications to a text file
@@ -75,7 +75,6 @@ def save_test_results(test_results, best_model):
     output_path = os.path.join(output_dir, output_filename)
     with open(output_path, 'w') as f:
         json.dump(best_model, f, indent=4)
-
 
 def custom_tune_classification_model_hyperparameters(X_train_normalized, y_train, X_validation_normalized, y_validation, X_test_normalized, y_test):
     
@@ -111,7 +110,6 @@ def custom_tune_classification_model_hyperparameters(X_train_normalized, y_train
     save_test_results(test_results, best_model)
     
     return test_results
-
 
 def main():
         

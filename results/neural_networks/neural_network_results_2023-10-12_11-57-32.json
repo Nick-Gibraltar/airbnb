@@ -1,0 +1,1049 @@
+[
+    {
+        "0113290b-c6e4-4198-aa50-ef0035677a33": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.0001
+    ],
+    {
+        "2023-10-12_11-57-32_0113290b-c6e4-4198-aa50-ef0035677a33": {
+            "r2_train": -0.509097695350647,
+            "r2_validation": -0.4637874364852905,
+            "r2_test": -0.39264512062072754,
+            "mse_train": 0.019791003316640854,
+            "mse_validation": 0.02497880719602108,
+            "mse_test": 0.013628069311380386,
+            "training_duration": 1.188786268234253,
+            "inference_latency": 9.450231279645647e-05
+        }
+    },
+    {
+        "176b2e42-ea31-499e-808c-9f6260f14183": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.001
+    ],
+    {
+        "2023-10-12_11-57-32_176b2e42-ea31-499e-808c-9f6260f14183": {
+            "r2_train": 0.07743901014328003,
+            "r2_validation": 0.03187263011932373,
+            "r2_test": 0.044026196002960205,
+            "mse_train": 0.012098890729248524,
+            "mse_validation": 0.016520613804459572,
+            "mse_test": 0.009354915469884872,
+            "training_duration": 1.3876264095306396,
+            "inference_latency": 0.00010877507073538644
+        }
+    },
+    {
+        "4d94838b-b054-4969-9272-365f29830ce0": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.01
+    ],
+    {
+        "2023-10-12_11-57-32_4d94838b-b054-4969-9272-365f29830ce0": {
+            "r2_train": 0.2870948910713196,
+            "r2_validation": 0.2510872483253479,
+            "r2_test": 0.29376184940338135,
+            "mse_train": 0.009349366649985313,
+            "mse_validation": 0.012779824435710907,
+            "mse_test": 0.006911065895110369,
+            "training_duration": 1.145003318786621,
+            "inference_latency": 9.377854210989816e-05
+        }
+    },
+    {
+        "ce31141b-15c4-4976-a11a-c05812366503": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 16
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 16,
+                    "out_features": 16
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 16,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.0001
+    ],
+    {
+        "2023-10-12_11-57-32_ce31141b-15c4-4976-a11a-c05812366503": {
+            "r2_train": -0.6062512397766113,
+            "r2_validation": -0.3945624828338623,
+            "r2_test": -0.8921231031417847,
+            "mse_train": 0.02106512151658535,
+            "mse_validation": 0.023797515779733658,
+            "mse_test": 0.018515832722187042,
+            "training_duration": 1.1479713916778564,
+            "inference_latency": 9.821256001790365e-05
+        }
+    },
+    {
+        "3be3d067-dc9e-4bed-ae5b-b66f1d0442bd": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 16
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 16,
+                    "out_features": 16
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 16,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.001
+    ],
+    {
+        "2023-10-12_11-57-32_3be3d067-dc9e-4bed-ae5b-b66f1d0442bd": {
+            "r2_train": -0.16785264015197754,
+            "r2_validation": -0.24597382545471191,
+            "r2_test": -0.03597855567932129,
+            "mse_train": 0.015315758995711803,
+            "mse_validation": 0.021261926740407944,
+            "mse_test": 0.010137820616364479,
+            "training_duration": 1.3091657161712646,
+            "inference_latency": 0.00010788043340047201
+        }
+    },
+    {
+        "56635318-c87a-4763-a52f-d31b5951e6e4": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 16
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 16,
+                    "out_features": 16
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 16,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.01
+    ],
+    {
+        "2023-10-12_11-57-32_56635318-c87a-4763-a52f-d31b5951e6e4": {
+            "r2_train": 0.14473217725753784,
+            "r2_validation": 0.13312572240829468,
+            "r2_test": -0.028702616691589355,
+            "mse_train": 0.011216376908123493,
+            "mse_validation": 0.014792779460549355,
+            "mse_test": 0.010066621005535126,
+            "training_duration": 1.1880114078521729,
+            "inference_latency": 9.561152685256231e-05
+        }
+    },
+    {
+        "98a515a9-dd34-4212-ab57-ce2279ad5f20": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.0001
+    ],
+    {
+        "2023-10-12_11-57-32_98a515a9-dd34-4212-ab57-ce2279ad5f20": {
+            "r2_train": -0.47814393043518066,
+            "r2_validation": -0.18967044353485107,
+            "r2_test": -1.443176031112671,
+            "mse_train": 0.019385062158107758,
+            "mse_validation": 0.020301135256886482,
+            "mse_test": 0.02390829659998417,
+            "training_duration": 1.1974444389343262,
+            "inference_latency": 9.031068711053757e-05
+        }
+    },
+    {
+        "4c5c97c2-8859-44c7-842c-e985ed876465": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.001
+    ],
+    {
+        "2023-10-12_11-57-32_4c5c97c2-8859-44c7-842c-e985ed876465": {
+            "r2_train": 0.19224566221237183,
+            "r2_validation": 0.2541438341140747,
+            "r2_test": 0.36319512128829956,
+            "mse_train": 0.010593263432383537,
+            "mse_validation": 0.012727665714919567,
+            "mse_test": 0.006231609731912613,
+            "training_duration": 1.1400082111358643,
+            "inference_latency": 8.541061764671689e-05
+        }
+    },
+    {
+        "e21dd606-a7e1-4da1-b286-56f4adf1aa3f": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.01
+    ],
+    {
+        "2023-10-12_11-57-32_e21dd606-a7e1-4da1-b286-56f4adf1aa3f": {
+            "r2_train": 0.19318687915802002,
+            "r2_validation": 0.17019778490066528,
+            "r2_test": 0.17744237184524536,
+            "mse_train": 0.010580920614302158,
+            "mse_validation": 0.014160163700580597,
+            "mse_test": 0.008049339056015015,
+            "training_duration": 1.1727921962738037,
+            "inference_latency": 9.988262539818173e-05
+        }
+    },
+    {
+        "a704c860-64d7-43f7-8842-e8c037901d6f": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.0001
+    ],
+    {
+        "2023-10-12_11-57-32_a704c860-64d7-43f7-8842-e8c037901d6f": {
+            "r2_train": -3.537663459777832,
+            "r2_validation": -2.7321767807006836,
+            "r2_test": -4.3479485511779785,
+            "mse_train": 0.05950901284813881,
+            "mse_validation": 0.06368774175643921,
+            "mse_test": 0.05233365297317505,
+            "training_duration": 1.1871311664581299,
+            "inference_latency": 0.00012619495391845702
+        }
+    },
+    {
+        "16f1f635-34a6-4457-95a4-2096e7c7027f": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.001
+    ],
+    {
+        "2023-10-12_11-57-32_16f1f635-34a6-4457-95a4-2096e7c7027f": {
+            "r2_train": -0.19689273834228516,
+            "r2_validation": -0.1623305082321167,
+            "r2_test": 0.0276871919631958,
+            "mse_train": 0.015696603804826736,
+            "mse_validation": 0.019834592938423157,
+            "mse_test": 0.009514803998172283,
+            "training_duration": 1.183903694152832,
+            "inference_latency": 0.00010839757465180897
+        }
+    },
+    {
+        "d1bf0e85-a019-401f-aa2f-5fd1579c9d1d": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 8
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 8,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.01
+    ],
+    {
+        "2023-10-12_11-57-32_d1bf0e85-a019-401f-aa2f-5fd1579c9d1d": {
+            "r2_train": 0.16729581356048584,
+            "r2_validation": 0.09157532453536987,
+            "r2_test": 0.20899641513824463,
+            "mse_train": 0.010920466855168343,
+            "mse_validation": 0.015501816757023335,
+            "mse_test": 0.0077405585907399654,
+            "training_duration": 1.1968467235565186,
+            "inference_latency": 0.00011149871916998
+        }
+    },
+    {
+        "e975fd87-e5a3-4cc6-b4f9-c8515842d688": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.0001
+    ],
+    {
+        "2023-10-12_11-57-32_e975fd87-e5a3-4cc6-b4f9-c8515842d688": {
+            "r2_train": -0.18667912483215332,
+            "r2_validation": -0.12964260578155518,
+            "r2_test": -0.16510343551635742,
+            "mse_train": 0.01556265726685524,
+            "mse_validation": 0.01927679032087326,
+            "mse_test": 0.011401403695344925,
+            "training_duration": 1.1812310218811035,
+            "inference_latency": 0.00011582204273768834
+        }
+    },
+    {
+        "0add45f8-f544-4f5d-8c3c-1c3ecff2fd5e": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.001
+    ],
+    {
+        "2023-10-12_11-57-32_0add45f8-f544-4f5d-8c3c-1c3ecff2fd5e": {
+            "r2_train": -0.09343409538269043,
+            "r2_validation": 0.036795854568481445,
+            "r2_test": -0.19690167903900146,
+            "mse_train": 0.01433979906141758,
+            "mse_validation": 0.01643660105764866,
+            "mse_test": 0.011712574400007725,
+            "training_duration": 1.3879153728485107,
+            "inference_latency": 0.00013177905763898576
+        }
+    },
+    {
+        "1dc8700b-14d6-4095-b033-14048f84c229": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.01
+    ],
+    {
+        "2023-10-12_11-57-32_1dc8700b-14d6-4095-b033-14048f84c229": {
+            "r2_train": 0.03805053234100342,
+            "r2_validation": 0.045180678367614746,
+            "r2_test": 0.03389662504196167,
+            "mse_train": 0.012615449726581573,
+            "mse_validation": 0.016293518245220184,
+            "mse_test": 0.009454040788114071,
+            "training_duration": 1.4963717460632324,
+            "inference_latency": 0.0001361983163016183
+        }
+    },
+    {
+        "07b3005b-a1f5-4e13-a594-7f7ac33adffa": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 32
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 32,
+                    "out_features": 32
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 32,
+                    "out_features": 32
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 32,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.0001
+    ],
+    {
+        "2023-10-12_11-57-32_07b3005b-a1f5-4e13-a594-7f7ac33adffa": {
+            "r2_train": -0.17119073867797852,
+            "r2_validation": -0.08757555484771729,
+            "r2_test": -0.49476921558380127,
+            "mse_train": 0.015359535813331604,
+            "mse_validation": 0.018558938056230545,
+            "mse_test": 0.014627429656684399,
+            "training_duration": 1.2471399307250977,
+            "inference_latency": 0.00012583789371308827
+        }
+    },
+    {
+        "899430a8-75c6-4257-981d-c8402566e9b6": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 32
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 32,
+                    "out_features": 32
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 32,
+                    "out_features": 32
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 32,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.001
+    ],
+    {
+        "2023-10-12_11-57-32_899430a8-75c6-4257-981d-c8402566e9b6": {
+            "r2_train": 0.2496386170387268,
+            "r2_validation": 0.23309326171875,
+            "r2_test": 0.2600244879722595,
+            "mse_train": 0.00984058529138565,
+            "mse_validation": 0.01308688335120678,
+            "mse_test": 0.007241210900247097,
+            "training_duration": 1.351301670074463,
+            "inference_latency": 0.00013742560432070778
+        }
+    },
+    {
+        "e907ad8f-346c-4966-8e8a-ba2b4a0da9ee": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 32
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 32,
+                    "out_features": 32
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 32,
+                    "out_features": 32
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 32,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.01
+    ],
+    {
+        "2023-10-12_11-57-32_e907ad8f-346c-4966-8e8a-ba2b4a0da9ee": {
+            "r2_train": 0.3251040577888489,
+            "r2_validation": 0.2692999839782715,
+            "r2_test": 0.24962294101715088,
+            "mse_train": 0.00885089673101902,
+            "mse_validation": 0.012469032779335976,
+            "mse_test": 0.0073429979383945465,
+            "training_duration": 1.2673590183258057,
+            "inference_latency": 0.0001213346208844866
+        }
+    },
+    {
+        "e568548c-7921-44fc-9ea3-3d173935c967": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 128
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 128,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.0001
+    ],
+    {
+        "2023-10-12_11-57-32_e568548c-7921-44fc-9ea3-3d173935c967": {
+            "r2_train": -1.1431825160980225,
+            "r2_validation": -0.3364206552505493,
+            "r2_test": -1.115126132965088,
+            "mse_train": 0.028106683865189552,
+            "mse_validation": 0.022805355489253998,
+            "mse_test": 0.02069808356463909,
+            "training_duration": 1.4586906433105469,
+            "inference_latency": 8.602085567656017e-05
+        }
+    },
+    {
+        "0e852bc4-a6a8-4cb4-9f96-9dc83ae34a7c": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 128
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 128,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.001
+    ],
+    {
+        "2023-10-12_11-57-32_0e852bc4-a6a8-4cb4-9f96-9dc83ae34a7c": {
+            "r2_train": 0.014542102813720703,
+            "r2_validation": 0.060650765895843506,
+            "r2_test": -3.328220844268799,
+            "mse_train": 0.012923750095069408,
+            "mse_validation": 0.01602952927350998,
+            "mse_test": 0.04235485941171646,
+            "training_duration": 1.149181842803955,
+            "inference_latency": 7.61225110008603e-05
+        }
+    },
+    {
+        "cb7a29b1-0f17-4d91-be59-338fe474b423": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 128
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 128,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.01
+    ],
+    {
+        "2023-10-12_11-57-32_cb7a29b1-0f17-4d91-be59-338fe474b423": {
+            "r2_train": 0.07251876592636108,
+            "r2_validation": 0.10726511478424072,
+            "r2_test": -0.6241817474365234,
+            "mse_train": 0.012163416482508183,
+            "mse_validation": 0.015234078280627728,
+            "mse_test": 0.015893826261162758,
+            "training_duration": 1.365492582321167,
+            "inference_latency": 8.221637635003953e-05
+        }
+    }
+]

@@ -1,6 +1,0 @@
-<class 'sklearn.ensemble._forest.RandomForestRegressor'>
-{'n_estimators': 10, 'max_depth': 10}
-122.44809694011799
-100.36032270242012
-0.3678304756566123
-0.3965348556386149

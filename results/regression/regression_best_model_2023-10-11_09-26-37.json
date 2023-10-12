@@ -1,0 +1,13 @@
+{
+    "model": "SGDRegressor",
+    "parameters": {
+        "penalty": "l2",
+        "alpha": 1e-05,
+        "max_iter": 10000,
+        "eta0": 0.1
+    },
+    "sqrt_mse_validation": 119.43685632725469,
+    "sqrt_mse_test": 95.08557117892911,
+    "r2_validation": 0.39854075652931975,
+    "r2_test": 0.45830187571805725
+}

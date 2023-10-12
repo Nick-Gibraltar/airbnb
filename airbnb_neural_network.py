@@ -22,7 +22,9 @@ def make_data_loader():
     df = pd.read_csv("tabular_data/listing.csv")
     df = td.clean_tabular_data(df)
     df = df.astype({"guests": "int32", "bedrooms": "int32"})
+    
     X, y = td.load_airbnb(df, "Price_Night")
+    #X, y = td.load_airbnb(df, "beds")
     
     # Scale the price per night data
     scaler = MinMaxScaler()
@@ -85,13 +87,115 @@ def serialize_nn_sequential(model):
         config.append(layer_info)
     return config
 
-def train_model(train_loader, X_test, y_test, X_validation, y_validation, X_train, y_train, optimiser_spec, network_spec):
+def train_models(train_loader, X_test, y_test, X_validation, y_validation, X_train, y_train, configs):
     
     # Generate path names for metric and configuration outputs 
-    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/runs')
+    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/results/neural_networks')
+    current_datetime = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    output_filename = f'neural_network_results_{current_datetime}.json'
+    output_path = os.path.join(output_dir, output_filename)
+    results_list = []
+    best_mse_test = 1000000
+    best_r2_test = -1000000
+    
+    for config in configs:
+
+        optimiser_spec, network_spec = config
+        model = NN(network_spec)
+
+        # The optimiser type and learning rate are contained in the optimiser_spec tuple 
+        optimiser_type, learning_rate = optimiser_spec
+
+        # TODO: if an optimiser other than SGD is required, then this needs to be implemented
+        if optimiser_type=="SGD":
+            optimiser = optim.SGD(model.parameters(), lr=learning_rate)   
+        
+        writer = SummaryWriter()
+        epochs = 10
+        batch_idx = 0
+        training_duration_timer = time.time()
+        inference_latency_total = 0
+
+        
+        # Standard pytorch training loop
+        for _ in range(epochs):
+            for batch in train_loader:
+                features, labels = batch
+                inference_latency_timer = time.time()
+                prediction = model(features)
+                inference_latency_total += time.time() - inference_latency_timer
+                loss = F.mse_loss(prediction, labels)
+                optimiser.zero_grad()
+                loss.backward()
+                optimiser.step()
+                writer.add_scalar("Loss", loss.item(), batch_idx)
+                batch_idx += 1
+        
+        training_duration = time.time() - training_duration_timer
+        inference_latency = inference_latency_total / batch_idx
+        
+        prediction_validation = model(X_validation)
+        prediction_test = model(X_test)
+        prediction_train = model(X_train)
+
+        
+        r2_train = r_squared(y_train, prediction_train)
+        r2_validation = r_squared(y_validation, prediction_validation)
+        r2_test = r_squared(y_test, prediction_test)
+
+        mse_train = F.mse_loss(prediction_train, y_train).item()
+        mse_validation = F.mse_loss(prediction_validation, y_validation).item()
+        mse_test = F.mse_loss(prediction_test, y_test).item()
+
+        serial_number = str(uuid.uuid4())
+        metrics_dictionary = {current_datetime + "_" + serial_number: {
+                            "r2_train": r2_train,
+                            "r2_validation": r2_validation,
+                            "r2_test": r2_test,
+                            "mse_train": mse_train,
+                            "mse_validation": mse_validation,
+                            "mse_test": mse_test,
+                            "training_duration": training_duration,
+                            "inference_latency": inference_latency}}
+        
+        print(mse_test, r2_test)
+        if mse_test < best_mse_test:
+            best_model_mse = metrics_dictionary
+            best_mse_model = ({serial_number: serialize_nn_sequential(model.layers)}, optimiser_spec)
+            best_mse_test = mse_test
+
+        if r2_test > best_r2_test:
+            best_model_r2 = metrics_dictionary
+            best_r2_model = ({serial_number: serialize_nn_sequential(model.layers)}, optimiser_spec)
+            best_r2_test = r2_test
+
+        results_list.append({serial_number: serialize_nn_sequential(model.layers)})
+        results_list.append(optimiser_spec)
+        results_list.append(metrics_dictionary)
+
+        torch.save(model.state_dict(), os.path.join(output_dir, "trained_model_" + current_datetime + "_" + serial_number + ".pt"))
+    
+    with open(output_path, 'w') as f:
+        json.dump(results_list, f, indent=4)
+
+    output_path = os.path.join(output_dir, f'neural_network_best_models_{current_datetime}.json')
+    with open(output_path, 'w') as f:
+        f.write("Best MSE:\n")
+        json.dump(best_model_mse, f, indent=4)
+        json.dump(best_mse_model, f, indent=4)
+        f.write("Best r2:\n")
+        json.dump(best_model_r2, f, indent=4)
+        json.dump(best_r2_model, f, indent=4)
+
+"""
+def train_models(train_loader, X_test, y_test, X_validation, y_validation, X_train, y_train, optimiser_spec, configs):
+    
+    # Generate path names for metric and configuration outputs 
+    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/results/neural_networks')
     current_datetime = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     serial_number = str(uuid.uuid4())
     
+    for config in configs
     model = NN(network_spec)
 
     #Save model specifications to a JSON file
@@ -162,7 +266,7 @@ def train_model(train_loader, X_test, y_test, X_validation, y_validation, X_trai
 
     output_path = os.path.join(output_dir, "trained_model_" + current_datetime + "_" + serial_number + ".pt")
     torch.save(model.state_dict(), output_path)
-
+"""
 def generate_nn_configs():
     
     # Open yaml file containing network configurations
@@ -211,9 +315,8 @@ def main():
 
     train_loader, X_test, y_test, X_validation, y_validation, X_train, y_train = make_data_loader()
     configs = generate_nn_configs()
-
-    for config in configs:
-        train_model(train_loader, X_test, y_test, X_validation, y_validation, X_train, y_train, *config)
+    
+    train_models(train_loader, X_test, y_test, X_validation, y_validation, X_train, y_train, configs)
 
 if __name__ == "__main__":
     main()

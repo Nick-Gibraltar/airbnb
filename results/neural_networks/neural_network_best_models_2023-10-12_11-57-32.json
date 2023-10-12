@@ -1,0 +1,97 @@
+Best MSE:
+{
+    "2023-10-12_11-57-32_4c5c97c2-8859-44c7-842c-e985ed876465": {
+        "r2_train": 0.19224566221237183,
+        "r2_validation": 0.2541438341140747,
+        "r2_test": 0.36319512128829956,
+        "mse_train": 0.010593263432383537,
+        "mse_validation": 0.012727665714919567,
+        "mse_test": 0.006231609731912613,
+        "training_duration": 1.1400082111358643,
+        "inference_latency": 8.541061764671689e-05
+    }
+}[
+    {
+        "4c5c97c2-8859-44c7-842c-e985ed876465": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.001
+    ]
+]Best r2:
+{
+    "2023-10-12_11-57-32_4c5c97c2-8859-44c7-842c-e985ed876465": {
+        "r2_train": 0.19224566221237183,
+        "r2_validation": 0.2541438341140747,
+        "r2_test": 0.36319512128829956,
+        "mse_train": 0.010593263432383537,
+        "mse_validation": 0.012727665714919567,
+        "mse_test": 0.006231609731912613,
+        "training_duration": 1.1400082111358643,
+        "inference_latency": 8.541061764671689e-05
+    }
+}[
+    {
+        "4c5c97c2-8859-44c7-842c-e985ed876465": [
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 11,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 4
+                }
+            },
+            {
+                "type": "ReLU"
+            },
+            {
+                "type": "Linear",
+                "config": {
+                    "in_features": 4,
+                    "out_features": 1
+                }
+            }
+        ]
+    },
+    [
+        "SGD",
+        0.001
+    ]
+]

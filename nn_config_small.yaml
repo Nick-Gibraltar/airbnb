@@ -2,5 +2,11 @@ networks:
   - name: network1
     optimiser: SGD
     learning_rate: 0.0001
-    num_hidden_layers: 3
-    hidden_layer_neurons: [32, 32, 32]
+    num_hidden_layers: 2
+    hidden_layer_neurons: [8, 8]
+
+  - name: network2
+    optimiser: SGD
+    learning_rate: 0.001
+    num_hidden_layers: 2
+    hidden_layer_neurons: [8, 8]

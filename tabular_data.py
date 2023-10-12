@@ -57,9 +57,7 @@ def clean_tabular_data(df):
 
 def load_airbnb(df, label_fieldname):
     if label_fieldname in df.columns:
-        #numerical_features_fieldname_list = ['guests', 'beds', 'bathrooms', 'Price_Night', 
-        #                                     'Location_rating', 'amenities_count', 'bedrooms']
-        
+
         numerical_features_fieldname_list = ['guests', 'beds', 'bathrooms', 'Price_Night', 'Cleanliness_rating',
                                           'Accuracy_rating', 'Communication_rating', 'Location_rating', 'Check-in_rating',
                                           'Value_rating', 'amenities_count', 'bedrooms']
@@ -70,7 +68,20 @@ def load_airbnb(df, label_fieldname):
         print("Specified fieldname does not exist in the dataframe")
         return False
 
+def main():
+    df = pd.read_csv("tabular_data/listing.csv")
+    df = clean_tabular_data(df)
+    df = df.astype({"guests": "int32", "bedrooms": "int32"})
+    print(df.describe())
+    df.to_csv("tabular_data/clean_tabular_data.csv", index=False)
+
 if __name__ == "__main__":
+    main()
+    
+    
+    
+"""   
     df = pd.read_csv("tabular_data/listing.csv")
     df = clean_tabular_data(df)
     df.to_csv("tabular_data/clean_tabular_data.csv", index=False)
+"""

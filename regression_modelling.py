@@ -25,7 +25,8 @@ def main():
     df = td.clean_tabular_data(df)
     df = df.astype({"guests": "int32", "bedrooms": "int32"})
 
-    X, y = td.load_airbnb(df, "Price_Night")
+#    X, y = td.load_airbnb(df, "Price_Night")
+    X, y = td.load_airbnb(df, "beds")
 
     X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.3, random_state=47)
     X_validation, X_test, y_validation, y_test = model_selection.train_test_split(X_test, y_test, test_size=0.5, random_state=37)
@@ -47,8 +48,7 @@ def main():
     #tune_regression_model_hyperparameters(X_train_normalized, y_train, X_validation_normalized, y_validation)
     best_model = find_best_model(test_results, False)
     print(best_model)
-    save_model(best_model)
-    save_test_results(test_results)
+    save_test_results(test_results, best_model)
 
 def tune_regression_model_hyperparameters(X_train, y_train, X_test, y_test):
     
@@ -97,7 +97,7 @@ def generate_model_parameters():
 def save_model(best_model):
     
     # Generate path names for metric and configuration outputs 
-    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/models/regression')
+    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/results/regression')
     current_datetime = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
     #Save model specifications to a text file
@@ -136,17 +136,23 @@ def custom_tune_regression_model_hyperparameters(X_train_normalized, y_train, X_
 
     return test_results
 
-def save_test_results(test_results):
+def save_test_results(test_results, best_model):
 
     # Generate path names for metric and configuration outputs 
-    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/runs/regression')
+    output_dir = os.path.expanduser('~/Documents/AICore/Specialisation/Airbnb_Project/results/regression')
     current_datetime = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
-    #Save model specifications to a text file
-    output_filename = f'regression_results_{current_datetime}.txt'
+    #Save regression results to a text file
+    output_filename = f'regression_results_{current_datetime}.json'
     output_path = os.path.join(output_dir, output_filename)
     with open(output_path, 'w') as f:
         json.dump(test_results, f, indent=4)
+    
+    #Save model specifications to a text file
+    output_filename = f'regression_best_model_{current_datetime}.json'
+    output_path = os.path.join(output_dir, output_filename)
+    with open(output_path, 'w') as f:    
+        json.dump(best_model, f, indent=4)
 
 def find_best_model(test_results, use_MSE=True):
     # Function use MSE or r-squared to determine best model

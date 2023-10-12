@@ -1,0 +1,11 @@
+{
+    "model": "RandomForestRegressor",
+    "parameters": {
+        "n_estimators": 10,
+        "max_depth": 2
+    },
+    "sqrt_mse_validation": 0.8636755455728892,
+    "sqrt_mse_test": 0.7317664467047457,
+    "r2_validation": 0.7202764810193114,
+    "r2_test": 0.766130693183415
+}
