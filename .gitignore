@@ -1,2 +1,6 @@
 images
 tabular_data
+nn_config_small.yaml
+*.ipynb
+runs
+__pycache__

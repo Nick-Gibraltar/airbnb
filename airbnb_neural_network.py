@@ -17,7 +17,17 @@ from torch.utils.data import Dataset, DataLoader
 from torch.utils.tensorboard import SummaryWriter
 
 def make_data_loader():
+    """
+    Loads the Airbnb dataset and cleans the data using the tabular_data.py module.
+    Scales the price per night data, creates train, validation, and test splits.
+    Returns a pytorch Dataloader object containing this data.
+
+    Args:
+        None
     
+    Returns:
+        Dataloader: a pytorch dataloader containing cleaned, scaled, and split Airbnb data
+    """
     # Load and clean the Airbnb dataset
     df = pd.read_csv("tabular_data/listing.csv")
     df = td.clean_tabular_data(df)
@@ -43,36 +53,75 @@ def make_data_loader():
             torch.tensor(X_train.values, dtype=torch.float32), torch.tensor(y_train.values, dtype=torch.float32)
 
 class AirbnbDataset(Dataset):
-    # Standard definition for a dataset with the required __getitem__ and __len__ methods defined
+    """
+    A class inherited from the Pytorch Dataset class to provide a convenient interface with the Dataloader.
+
+    Methods:
+        __getitem__: returns the features and label for an item in the dataset as specified by its index
+        __len__: returns the number of data items in the dataset
+
+    """
     def __init__(self, features, labels):
-        
+        """
+        Initialises the class instance.
+
+        Args:
+            features: the features of the dataset
+            labels: the labels of the dataset
+        """    
         super().__init__()
         self.features = features
         self.labels = labels
 
     def __getitem__(self, index):
+        """
+        Returns the features and labels for the data item at the specified index.
 
+        Args:
+            index: specifies the position of the required data item in the dataset
+        """
         return torch.tensor(self.features.iloc[index], dtype=torch.float32), torch.tensor(self.labels.iloc[index], dtype=torch.float32)
     
     def __len__(self):
+        """
+        Returns the length of the dataset
+
+        Args:
+            None
+        """
         return len(self.features)
 
 class NN(nn.Module):
+    """
+    A class to represent a simple neural network and which, as is standard, inherits from Pytorch nn.Module
+    to enable convenient tracking of model parameters and access to training utilities.
 
+    Methods:
+        forward: defines the forward pass through the network
+    """
     def __init__(self, architecture):
-        
+        """
+        Initialises the class NN.
+
+        Args:
+            architecture: a dictionary containing the structure of the network and which comprises
+                            its layers and the activation functions between each of them
+        """
         super().__init__()
         # Use dictionary unpacking and list comprehension to create the network 
         self.layers = nn.Sequential(*(architecture[layer]['type'](**architecture[layer]['config']) for layer in architecture))
 
     def forward(self, X):
-                
+        """
+        Used by the optimiser to specify how data input to the network is fed forward from input to output
+        """        
         return self.layers(X)
 
 def serialize_nn_sequential(model):
-
-    # Function to allow generation of the JSON file containing the network configuration by converting
-    # non-serializable classes into strings bearing the name of the class
+    """
+    Function to allow generation of the JSON file containing the network configuration
+    by converting non-serializable classes into strings bearing the name of the class.
+    """
     config = []
     for layer in model:
         if isinstance(layer, nn.Linear):
@@ -137,7 +186,6 @@ def train_models(train_loader, X_test, y_test, X_validation, y_validation, X_tra
         prediction_validation = model(X_validation)
         prediction_test = model(X_test)
         prediction_train = model(X_train)
-
         
         r2_train = r_squared(y_train, prediction_train)
         r2_validation = r_squared(y_validation, prediction_validation)
