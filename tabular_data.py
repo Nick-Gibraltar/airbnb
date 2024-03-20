@@ -77,11 +77,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
-    
-    
-"""   
-    df = pd.read_csv("tabular_data/listing.csv")
-    df = clean_tabular_data(df)
-    df.to_csv("tabular_data/clean_tabular_data.csv", index=False)
-"""

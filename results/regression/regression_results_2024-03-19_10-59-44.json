@@ -1,0 +1,40 @@
+{
+    "SGDRegressor": {
+        "best params": {
+            "alpha": 0.0001,
+            "eta0": 0.01,
+            "max_iter": 50000,
+            "penalty": "elasticnet"
+        },
+        "best score": -98.6759495745301
+    },
+    "DecisionTreeRegressor": {
+        "best params": {
+            "max_depth": 3,
+            "splitter": "best"
+        },
+        "best score": -106.09305611949158
+    },
+    "RandomForestRegressor": {
+        "best params": {
+            "max_depth": 10,
+            "n_estimators": 100
+        },
+        "best score": -100.29766863693871
+    },
+    "GradientBoostingRegressor": {
+        "best params": {
+            "learning_rate": 0.01,
+            "max_depth": 3,
+            "n_estimators": 1000
+        },
+        "best score": -99.99460796601622
+    },
+    "SVR": {
+        "best params": {
+            "C": 10,
+            "kernel": "linear"
+        },
+        "best score": -100.28992269590341
+    }
+}

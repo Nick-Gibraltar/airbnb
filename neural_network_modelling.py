@@ -2,6 +2,7 @@ import datetime
 import json
 import os
 import pandas as pd
+import prepare_data
 import tabular_data as td
 import time
 import torch
@@ -28,6 +29,8 @@ def make_data_loader():
     Returns:
         Dataloader: a pytorch dataloader containing cleaned, scaled, and split Airbnb data
     """
+    
+    """
     # Load and clean the Airbnb dataset
     df = pd.read_csv("tabular_data/listing.csv")
     df = td.clean_tabular_data(df)
@@ -42,15 +45,17 @@ def make_data_loader():
     y = pd.DataFrame(y)
     X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.2, random_state=47)
     X_validation, X_test, y_validation, y_test = model_selection.train_test_split(X_test, y_test, test_size=0.5, random_state=37)
+    """
 
+    X_test_normalised, y_test, X_train_normalised, y_train, X_validation_normalised, y_validation = prepare_data.prepare("Price_Night")
     # The training dataset is an instance of the AirbnbDataset class
-    AirbnbRegressionDataset_Train = AirbnbDataset(X_train, y_train)
+    AirbnbRegressionDataset_Train = AirbnbDataset(X_train_normalised, y_train)
 
     # Return the training dataset as a dataloader for easy batching plus the test, train, and validation sets
     return DataLoader(AirbnbRegressionDataset_Train, batch_size=16, shuffle=True), \
-            torch.tensor(X_test.values, dtype=torch.float32), torch.tensor(y_test.values, dtype=torch.float32), \
-            torch.tensor(X_validation.values, dtype=torch.float32), torch.tensor(y_validation.values, dtype=torch.float32), \
-            torch.tensor(X_train.values, dtype=torch.float32), torch.tensor(y_train.values, dtype=torch.float32)
+            torch.tensor(X_test_normalised.values, dtype=torch.float32), torch.tensor(y_test.values, dtype=torch.float32), \
+            torch.tensor(X_validation_normalised.values, dtype=torch.float32), torch.tensor(y_validation.values, dtype=torch.float32), \
+            torch.tensor(X_train_normalised.values, dtype=torch.float32), torch.tensor(y_train.values, dtype=torch.float32)
 
 class AirbnbDataset(Dataset):
     """

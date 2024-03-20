@@ -3,6 +3,7 @@ import itertools
 import json
 import os
 import pandas as pd
+import prepare_data
 import tabular_data as td
 
 from sklearn.linear_model import LogisticRegression, SGDClassifier, Perceptron
@@ -15,7 +16,30 @@ from sklearn import model_selection
 from sklearn import preprocessing
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
-import matplotlib.pyplot as plt
+def run_baseline_LogisticRegression_model()
+def generate_model_parameters_dictionary():
+    
+    model_parameters_dictionary = {SGDClassifier(): {"penalty": ["l1", "l2", "elasticnet"],
+                                                  "alpha": [0.01, 0.001, 0.0001, 0.00001],
+                                                  "max_iter": [1000, 10000, 50000, 100000],
+                                                  "learning_rate": []
+                                                  "eta0": [0.001, 0.01, 0.1],
+                                                  },
+
+                                    DecisionTreeRegressor(): {"max_depth": [None, 2, 3, 5],"splitter": ["best"]},
+
+                                    RandomForestRegressor(): {"n_estimators": [10, 100, 1000, 5000],
+                                                            "max_depth": [None, 2, 10]},
+
+                                    GradientBoostingRegressor(): {"learning_rate": [0.01, 0.1, 1],
+                                                                "max_depth": [2, 3, 10],
+                                                                "n_estimators": [10, 100, 1000]},
+
+                                    SVR(): {"kernel": ["linear", "rbf", "sigmoid"],
+                                          "C": [0.1, 1, 10]}
+
+    }
+
 
 def generate_model_parameters():
 
@@ -111,9 +135,9 @@ def custom_tune_classification_model_hyperparameters(X_train_normalized, y_train
     
     return test_results
 
-def main():
+def classification_pipeline():
         
-    df = pd.read_csv("tabular_data/listing.csv")
+    """df = pd.read_csv("tabular_data/listing.csv")
     df = td.clean_tabular_data(df)
     df = df.astype({"guests": "int32", "bedrooms": "int32"})
 
@@ -126,9 +150,11 @@ def main():
     scaler.fit(X_train)
     X_train_normalized = scaler.transform(X_train)
     X_test_normalized = scaler.transform(X_test)
-    X_validation_normalized = scaler.transform(X_validation)
+    X_validation_normalized = scaler.transform(X_validation) """
 
-    custom_tune_classification_model_hyperparameters(X_train_normalized, y_train, X_validation_normalized, y_validation, X_test_normalized, y_test)
+    X_test_normalised, y_test, X_train_normalised, y_train, X_validation_normalised, y_validation = prepare_data.prepare("Category")
+    run_baseline_LogisticRegression_model()
+    custom_tune_classification_model_hyperparameters(X_train_normalised, y_train, X_validation_normalised, y_validation, X_test_normalised, y_test)
 
 if __name__ == "__main__":
-    main()
+    classification_pipeline()
